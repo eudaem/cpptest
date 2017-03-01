@@ -9,6 +9,7 @@ int main()
 		{c=a;
 		 a=b;
 		 b=c;}
+	cout << a <<"~"<< b << "之间的数为：" << endl;
 	for(; a>=b; a--)
 	cout << a << endl;	
   return 0;
