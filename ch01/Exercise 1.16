@@ -6,5 +6,15 @@ int main()
 	while(std::cin >> value)
 	sum+=value;
 	cout << "sum is " << sum << endl;
-	return 0;
+
+/*
+ *int limit = 0, sum = 0, value = 0;
+ *std::cout << "How many integers would you like to enter?";
+ *std::cin >> limit;　　// assume we don't know what is EOF(End-Of-File).
+ *while (std::cin >> value && (--limit != 0))
+ *sum += value;
+ *std::cout << sum + value << std::endl;　　//　Watch out for "sum + value" in the `cout` line.
+ */
+ 
+ return 0;
 }
