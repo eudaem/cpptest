@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
   int sum = 0, value = 0;
-	while(std::cin >> value)
-	sum+=value;
-	cout << "sum is " << sum << endl;
+  while(std::cin >> value)
+  sum+=value;
+  cout << "sum is " << sum << endl;
 
 /*
  *int limit = 0, sum = 0, value = 0;
@@ -16,5 +16,5 @@ int main()
  *std::cout << sum + value << std::endl;　　//　Watch out for "sum + value" in the `cout` line.
  */
  
- return 0;
+	return 0;
 }
