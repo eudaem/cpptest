@@ -16,5 +16,5 @@ int main()
  *std::cout << sum + value << std::endl;　　//　Watch out for "sum + value" in the `cout` line.
  */
  
-	return 0;
+  return 0;
 }
