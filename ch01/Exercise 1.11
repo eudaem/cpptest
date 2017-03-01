@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout << "输入两个数："<< endl;
+	cin >> a >> b;
+	if(a<b)
+		{c=a;
+		 a=b;
+		 b=c;}
+	for(; a>=b; a--)
+	cout << a << endl;	
+  return 0;
+}
